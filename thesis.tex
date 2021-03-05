@@ -3,11 +3,11 @@
 % MEng or BEng - This style is more aggressive in saving space, to allow you to use every page if nessacary
 % PhD - This style always starts chapters on the right, which is much more pleasant than the MEng/BEng style, but wastes nearly a page per chapter.
 % singlesided - Disable double sided printing.
-\documentclass[12pt,MEng]{UoAThesis}
+\documentclass[12pt, BEng]{UoAThesis}
 \thesistitle{Style template for Aberdeen Engineering and a rough guide to \LaTeX}
-\thesisauthor{Marcus Nigel Campbell Bannerman}
+\thesisauthor{James Robert Moncur}
 \thesispdfkeywords{}
-\thesisyear{2017}
+\thesisyear{2021}
 % The degree title is automatically set by the options above; however,
 % you can add your degree specialism like so:
 % \degree{MEng~degree in Electrical Engineering}
@@ -97,7 +97,7 @@ you can just copy paste the one below and tweak it for your needs.
   \centering
   \includegraphics[clip,width=0.5\linewidth]{figures/testfig}
   %You should always put a short caption in the [] for the table of figures
-  \caption[A test figure]{\label{fig:testfig} A test figure. This
+  \caption[A test figure..or is it]{\label{fig:testfig} A test figure. This
     caption is far too short. It should explain where the figure came
     from and exactly what it presents. Note how only a ``short''
     single-sentence caption appears in the table of figures though.}
@@ -218,6 +218,16 @@ for it like so~\cite{Bannerman_2009}. I can even do cool things like
 say the author of that citation is \citeauthor{Bannerman_2009} and it
 was published in \citeyear{Bannerman_2009}. Or even ask for a full
 citation, like so: \fullcite{Bannerman_2009}.
+
+\chapter{Related Work}
+
+\chapter{Method}
+
+\chapter{Results}
+
+\chapter{Discussion}
+
+\chapter{Conclusion}
 
 \chapter{A Little Further Down The Rabbit Hole}
 \lettrine{W}{hy} stop there? There are some lovely features of latex
